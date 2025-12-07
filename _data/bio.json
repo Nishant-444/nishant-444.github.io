@@ -2,143 +2,86 @@
   "basics": {
     "name": "Nishant Sharma",
     "label": "Backend Engineer",
+    "picture": "https://avatars.githubusercontent.com/u/197467920?v=4",
     "email": "business.nishant777@gmail.com",
     "phone": "+91 6350435068",
-    "location": {
-      "city": "Jaipur",
-      "region": "Rajasthan",
-      "countryCode": "India"
-    },
     "website": "https://www.nishants.dev",
+    "summary": "Backend-focused engineer experienced in designing production-grade Node.js/Express APIs, secure JWT-based authentication systems, and scalable MongoDB architectures. Strong emphasis on clean modular structure, aggregation pipelines, optimized request handling, and cloud-based media workflows. Deployed and maintained stable APIs on Render with real-world load testing.",
+    "location": { 
+      "address": "", 
+      "postalCode": "302039", 
+      "city": "Jaipur", 
+      "countryCode": "India", 
+      "region": "Rajasthan" 
+    },
     "profiles": [
-      {
-        "network": "GitHub",
-        "username": "Nishant-444",
-        "url": "https://github.com/Nishant-444"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "nishant-developer",
-        "url": "https://linkedin.com/in/nishant-developer"
-      }
-    ],
-    "summary": "Backend-focused developer experienced in building production-grade Node.js/Express systems with secure authentication, modular architecture, aggregation pipelines, and cloud-based media workflows. Deployed real-world APIs on Render and tested live performance, demonstrating reliability, structured API design, and end-to-end ownership."
+      { "network": "github", "username": "Nishant-444", "url": "https://github.com/Nishant-444" },
+      { "network": "linkedin", "username": "nishant-developer", "url": "https://linkedin.com/in/nishant-developer" },
+      { "network": "twitter", "username": "nishant4712", "url": "https://twitter.com/_nishant4712" },
+      { "network": "instagram", "username": "_nishant4712", "url": "https://instagram.com/_nishant4712" }
+    ]
   },
+
+  "interests": [
+    { "name": "Backend Architecture" },
+    { "name": "REST APIs" },
+    { "name": "Distributed Systems (Learning)" },
+    { "name": "Databases & Query Optimization" },
+    { "name": "Cloud Deployments" }
+  ],
 
   "skills": [
     {
-      "name": "Backend",
-      "keywords": [
-        "Node.js",
-        "Express.js",
-        "REST APIs",
-        "JWT Authentication",
-        "Cloudinary",
-        "Multer",
-        "MongoDB",
-        "Mongoose",
-        "Aggregation Pipelines"
-      ]
+      "name": "Languages and Frameworks",
+      "keywords": [ "JavaScript", "C++", "Node.js", "Express.js", "React", "EJS" ]
     },
     {
-      "name": "Frontend",
-      "keywords": ["React", "Tailwind CSS", "EJS", "HTML", "CSS"]
-    },
-    {
-      "name": "Languages",
-      "keywords": ["JavaScript", "C++"]
-    },
-    {
-      "name": "Tools",
-      "keywords": ["Git", "GitHub", "Postman", "VS Code", "Render", "Vercel", "Nginx (learning)"]
-    }
-  ],
-
-  "projects": [
-    {
-      "name": "VizTube – Production-Grade Video Platform Backend",
-      "url": "https://github.com/Nishant-444/VizTube",
-      "description": "A scalable backend API for a YouTube-like platform supporting video uploads, playlists, subscriptions, likes, comments, tweets, dashboards, and secure authentication.",
-      "highlights": [
-        "Architected a modular Express backend with dual-token JWT auth, Cloudinary media handling, and schema-level validation.",
-        "Implemented playlist management, polymorphic likes, watch history, and creator analytics using structured aggregation pipelines.",
-        "Centralized error handling and consistent response formatting for predictable integration.",
-        "Deployed on Render with environment-configured runtime and stable uptime for 2+ months.",
-        "API handled ~300 requests in 10 seconds without failures during load testing, demonstrating reliability under concurrent traffic.",
-        "Performed performance benchmarking using Autocannon, confirming predictable latency and stable behavior under load."
-      ],
-      "technologies": [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Cloudinary",
-        "Multer",
-        "JWT",
-        "Render"
-      ]
-    },
-    {
-      "name": "Trend Engine – Movie Discovery App",
-      "url": "https://trend-engine.vercel.app",
-      "description": "Frontend movie discovery app analyzing user interactions to rank trending content.",
-      "highlights": [
-        "Built dynamic content ranking logic with real-time UI updates.",
-        "Reduced load by 60% using an optimized debounce strategy.",
-        "Designed secure authentication and responsive UI for 200+ users."
-      ],
-      "technologies": ["React", "Tailwind CSS", "Appwrite"]
-    },
-    {
-      "name": "BankEase – Banking System",
-      "url": "https://github.com/Nishant-444/BankEase",
-      "description": "CLI-based banking system built in C++ with full OOP architecture and binary persistence.",
-      "highlights": [
-        "Engineered binary file storage enabling reliable, corruption-free data handling.",
-        "Achieved 99.8% operational stability using structured OOP error-handling patterns.",
-        "Designed fully encapsulated file I/O modules ensuring consistent data integrity."
-      ],
-      "technologies": ["C++", "OOP"]
+      "name": "Toolsets/OS",
+      "keywords": [ "MongoDB", "Mongoose", "Cloudinary", "Render", "Vercel", "Git/GitHub", "Postman", "Ubuntu", "Nginx (learning)" ]
     }
   ],
 
   "education": [
     {
-      "institution": "S.S. Jain Subodh PG College",
-      "studyType": "Bachelor of Computer Applications",
-      "startDate": "2024",
-      "endDate": "2027"
+      "institution": "S.S. Jain Subodh PG College, Jaipur",
+      "area": "Bachelor of Computer Applications",
+      "studyType": "Computer Science",
+      "startDate": "2024-08",
+      "endDate": "2027-05",
+      "courses": ["DBMS","Data Structurs", "Algorithm", "System Design"]
     },
     {
-      "institution": "KPS Udaan",
-      "studyType": "Grade 12 (PCM)",
-      "score": "90.2%",
-      "endDate": "2024"
+      "institution": "KPS Udaan, Jaipur",
+      "area": "Senior Secondary (Grade XII)",
+      "studyType": "Science",
+      "startDate": "2022-06",
+      "endDate": "2024-05",
+      "courses": ["Physics","Chemistry", "Mathematics", "Infomation Practices","English Literature"]
     }
   ],
 
-  "certifications": [
+  "work": [],
+
+  "volunteer": [],
+
+  "awards": [
     {
-      "title": "Microsoft GitHub Foundations",
-      "issuer": "Microsoft"
+      "title": "Recommended Twice for Indian Air Force (SSB)",
+      "date": "2022-2024",
+      "awarder": "Services Selection Board (India)",
+      "summary": "Cleared a highly selective five-day leadership and psychology evaluation twice, part of a ~0.1% selection track."
     },
     {
-      "title": "Problem Solving (Intermediate)",
-      "issuer": "HackerRank"
-    },
-    {
-      "title": "Back End Development & APIs",
-      "issuer": "freeCodeCamp"
-    },
-    {
-      "title": "SQL (Basic)",
-      "issuer": "HackerRank"
+      "title": "Performance Benchmarked API",
+      "date": "2025",
+      "awarder": "Self",
+      "summary": "API handled ~300 requests in 10 seconds without failures during live load testing, confirming stability under concurrent traffic and predictable latency."
     }
   ],
 
-  "achievements": [
+  "references": [
     {
-      "title": "Twice Recommended for Indian Air Force (SSB)",
-      "summary": "Cleared a 5-day leadership and psychological assessment twice, part of a ~0.1% selection path."
+      "name": ""
     }
   ]
 }
