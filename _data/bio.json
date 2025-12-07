@@ -1,118 +1,144 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Nishant Sharma",
+    "label": "Backend Engineer",
+    "email": "business.nishant777@gmail.com",
+    "phone": "+91 6350435068",
+    "location": {
+      "city": "Jaipur",
+      "region": "Rajasthan",
+      "countryCode": "India"
+    },
+    "website": "https://www.nishants.dev",
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
-    ]
+      {
+        "network": "GitHub",
+        "username": "Nishant-444",
+        "url": "https://github.com/Nishant-444"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "nishant-developer",
+        "url": "https://linkedin.com/in/nishant-developer"
+      }
+    ],
+    "summary": "Backend-focused developer experienced in building production-grade Node.js/Express systems with secure authentication, modular architecture, aggregation pipelines, and cloud-based media workflows. Deployed real-world APIs on Render and tested live performance, demonstrating reliability, structured API design, and end-to-end ownership."
   },
-  "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
-  ],
+
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Backend",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "JWT Authentication",
+        "Cloudinary",
+        "Multer",
+        "MongoDB",
+        "Mongoose",
+        "Aggregation Pipelines"
+      ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Frontend",
+      "keywords": ["React", "Tailwind CSS", "EJS", "HTML", "CSS"]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["JavaScript", "C++"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Git", "GitHub", "Postman", "VS Code", "Render", "Vercel", "Nginx (learning)"]
     }
   ],
+
+  "projects": [
+    {
+      "name": "VizTube – Production-Grade Video Platform Backend",
+      "url": "https://github.com/Nishant-444/VizTube",
+      "description": "A scalable backend API for a YouTube-like platform supporting video uploads, playlists, subscriptions, likes, comments, tweets, dashboards, and secure authentication.",
+      "highlights": [
+        "Architected a modular Express backend with dual-token JWT auth, Cloudinary media handling, and schema-level validation.",
+        "Implemented playlist management, polymorphic likes, watch history, and creator analytics using structured aggregation pipelines.",
+        "Centralized error handling and consistent response formatting for predictable integration.",
+        "Deployed on Render with environment-configured runtime and stable uptime for 2+ months.",
+        "API handled ~300 requests in 10 seconds without failures during load testing, demonstrating reliability under concurrent traffic.",
+        "Performed performance benchmarking using Autocannon, confirming predictable latency and stable behavior under load."
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Cloudinary",
+        "Multer",
+        "JWT",
+        "Render"
+      ]
+    },
+    {
+      "name": "Trend Engine – Movie Discovery App",
+      "url": "https://trend-engine.vercel.app",
+      "description": "Frontend movie discovery app analyzing user interactions to rank trending content.",
+      "highlights": [
+        "Built dynamic content ranking logic with real-time UI updates.",
+        "Reduced load by 60% using an optimized debounce strategy.",
+        "Designed secure authentication and responsive UI for 200+ users."
+      ],
+      "technologies": ["React", "Tailwind CSS", "Appwrite"]
+    },
+    {
+      "name": "BankEase – Banking System",
+      "url": "https://github.com/Nishant-444/BankEase",
+      "description": "CLI-based banking system built in C++ with full OOP architecture and binary persistence.",
+      "highlights": [
+        "Engineered binary file storage enabling reliable, corruption-free data handling.",
+        "Achieved 99.8% operational stability using structured OOP error-handling patterns.",
+        "Designed fully encapsulated file I/O modules ensuring consistent data integrity."
+      ],
+      "technologies": ["C++", "OOP"]
+    }
+  ],
+
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
+      "institution": "S.S. Jain Subodh PG College",
+      "studyType": "Bachelor of Computer Applications",
+      "startDate": "2024",
+      "endDate": "2027"
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+      "institution": "KPS Udaan",
+      "studyType": "Grade 12 (PCM)",
+      "score": "90.2%",
+      "endDate": "2024"
     }
   ],
-  "volunteer": [
+
+  "certifications": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "title": "Microsoft GitHub Foundations",
+      "issuer": "Microsoft"
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Problem Solving (Intermediate)",
+      "issuer": "HackerRank"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Back End Development & APIs",
+      "issuer": "freeCodeCamp"
+    },
+    {
+      "title": "SQL (Basic)",
+      "issuer": "HackerRank"
     }
   ],
-  "references": [
+
+  "achievements": [
     {
-      "name": "Available upon request"
+      "title": "Twice Recommended for Indian Air Force (SSB)",
+      "summary": "Cleared a 5-day leadership and psychological assessment twice, part of a ~0.1% selection path."
     }
   ]
 }
