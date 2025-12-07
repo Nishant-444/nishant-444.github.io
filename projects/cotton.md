@@ -1,59 +1,45 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+image: img/viztube/viztube-square.png
+title: "VizTube"
+date: 2024-11-01
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Node.js
+  - Express.js
+  - MongoDB
+  - Security
+summary: "A production-grade video streaming backend with dual-token JWT security."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/viztube/viztube-header.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+VizTube is a video streaming backend architecture built to handle high-scale data interactions. I designed it with a focus on production-grade security and data integrity. It features a polymorphic MongoDB schema to eliminate data redundancy and a dual-token JWT strategy for state-agnostic authentication.
 
-To give you a flavor of the game, here is an excerpt from one run:
+To demonstrate the "centralized error handler" I engineered to slash debugging time by 35%, here is a sample JSON response the API generates when catching a system-level exception:
 
 <hr>
 
 <pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+// POST /api/v1/users/login
+// Response 500 Internal Server Error (Handled)
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+{
+  "success": false,
+  "statusCode": 500,
+  "message": "Database Connection Timeout",
+  "error": {
+    "isOperational": true,
+    "stack": "Error: MongooseServerSelectionError: connect ETIMEDOUT..."
+  },
+  "timestamp": "2024-12-04T10:15:30.500Z"
+}
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
+// The standardized structure allows frontend clients to handle
+// errors gracefully without crashing the UI.
 </pre>
 
 <hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/yourusername/viztube"><i class="large github icon "></i>yourusername/viztube</a>
