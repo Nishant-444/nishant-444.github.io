@@ -26,19 +26,9 @@
         "url": "http://linkedin.com/in/nishant-developer"
       },
       {
-        "network": "Leetcode",
-        "username": "nishant4712",
-        "url": "https://leetcode.com/u/nishant4712/"
-      },
-      {
-        "network": "Codeforces",
-        "username": "nishant4712",
-        "url": "https://codeforces.com/profile/nishant4712"
-      },
-      {
-        "network": "Hackerrank",
-        "username": "business_nishan1",
-        "url": "https://www.hackerrank.com/profile/business_nishan1/"
+        "network": "twitter",
+        "username": "_nishant4712",
+        "url": "https://twitter.com/_nishant4712/"
       }
     ]
   },
