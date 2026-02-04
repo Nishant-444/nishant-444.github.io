@@ -111,42 +111,40 @@
   ],
   "awards": [
     {
+      "title": "Microsoft GitHub Foundations",
+      "date": "2025-10-03",
+      "awarder": "Microsoft",
+      "summary": "Verified credential (ID: AEFB5214CE0AB643) covering Git, Collaboration, and Security. <a href='https://learn.microsoft.com/en-gb/users/nishantsharma-2380/credentials/aefb5214ce0ab643'>View Certificate</a>"
+    },
+    {
+      "title": "Back End Development & APIs",
+      "date": "2025-10-06",
+      "awarder": "FreeCodeCamp",
+      "summary": "Comprehensive certification in Node.js, Express, and Microservices. <a href='https://drive.google.com/file/d/1obbSvmpeBubq7X_yRFtkk741NJMX8yI2/view?usp=sharing'>View Certificate</a>"
+    },
+    {
+      "title": "Problem Solving (Intermediate)",
+      "date": "2025-07-23",
+      "awarder": "HackerRank",
+      "summary": "Advanced algorithmic problem solving and data structures. <a href='https://www.hackerrank.com/certificates/17f976a57553'>View Certificate</a>"
+    },
+    {
+      "title": "SQL (Basic)",
+      "date": "2025-03-22",
+      "awarder": "HackerRank",
+      "summary": "Relational database fundamentals and query optimization. <a href='https://www.hackerrank.com/certificates/c3e4298b5e2e'>View Certificate</a>"
+    },
+    {
       "title": "Twice Recommended by SSB for Indian Air Force",
-      "date": "2025",
+      "date": "2024",
       "awarder": "Indian Air Force",
       "summary": "Elite 0.1% selection from 600,000+ applicants. Demonstrated exceptional decision-making under pressure."
     },
     {
       "title": "Competitive Programming Excellence",
-      "date": "2026",
+      "date": "",
       "awarder": "LeetCode / CodeForces",
       "summary": "Solved 300+ algorithmic problems showcasing advanced problem-solving capabilities."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Microsoft GitHub Foundations",
-      "date": "2025",
-      "issuer": "Microsoft",
-      "url": "https://learn.microsoft.com/en-gb/users/nishantsharma-2380/credentials/aefb5214ce0ab643"
-    },
-    {
-      "name": "Back End Development & APIs",
-      "date": "2025",
-      "issuer": "FreeCodeCamp",
-      "url": "https://drive.google.com/file/d/1obbSvmpeBubq7X_yRFtkk741NJMX8yI2/view?usp=sharing"
-    },
-    {
-      "name": "Problem Solving (Intermediate)",
-      "date": "2025",
-      "issuer": "HackerRank",
-      "url": "https://www.hackerrank.com/certificates/17f976a57553"
-    },
-    {
-      "name": "SQL (Basic)",
-      "date": "2024",
-      "issuer": "HackerRank",
-      "url": "https://www.hackerrank.com/certificates/c3e4298b5e2e"
     }
   ]
 }
