@@ -44,12 +44,22 @@
   },
   "interests": [
     {
-      "name": "Competitive Programming",
-      "keywords": ["LeetCode", "CodeForces", "300+ Problems Solved"]
+      "name": "Competitive Programming"
     },
     {
-      "name": "Cloud Infrastructure",
-      "keywords": ["AWS", "System Design", "Scalability"]
+      "name": "AWS"
+    },
+    {
+      "name": "SQL/NoSQL"
+    },
+    {
+      "name": "Algorithms"
+    },
+    {
+      "name": "TS/JS"
+    },
+    {
+      "name": "Node.js"
     }
   ],
   "skills": [
