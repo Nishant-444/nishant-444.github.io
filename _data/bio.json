@@ -1,113 +1,154 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Nishant Sharma",
+    "label": "Backend & Cloud Architect",
+    "picture": "https://github.com/Nishant-444.png",
+    "email": "business.nishant777@gmail.com",
+    "phone": "+91 6350435068",
+    "website": "https://nishant-444.github.io",
+    "summary": "Backend specialist migrating legacy NoSQL systems to ACID-compliant PostgreSQL architectures. Expert in optimizing cloud infrastructure on strict memory budgets (1GB RAM) using Nginx and PM2. Twice Recommended by SSB for Indian Air Force (Top 0.1%).",
+    "location": {
+      "address": "",
+      "postalCode": "302039",
+      "city": "Jaipur",
+      "countryCode": "IN",
+      "region": "Rajasthan"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "Github",
+        "username": "nishant-444",
+        "url": "http://github.com/nishant-444"
+      },
+      {
+        "network": "Linkedin",
+        "username": "nishant-developer",
+        "url": "http://linkedin.com/in/nishant-developer"
+      },
+      {
+        "network": "LeetCode",
+        "username": "nishant4712",
+        "url": "http://"
+      },
+      {
+        "network": "CodeForces",
+        "username": "nishant4712",
+        "url": "https://codeforces.com/profile/nishant4712"
+      },
+      {
+        "network": "HackerRank",
+        "username": "business_nishan1",
+        "url": "https://www.hackerrank.com/profile/business_nishan1/"
+      }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    {
+      "name": "Competitive Programming",
+      "keywords": ["LeetCode", "CodeForces", "300+ Problems Solved"]
+    },
+    {
+      "name": "Cloud Infrastructure",
+      "keywords": ["AWS", "System Design", "Scalability"]
+    }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Languages",
+      "level": "Advanced",
+      "keywords": ["TypeScript", "JavaScript", "C++", "SQL"]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Backend & Database",
+      "level": "Advanced",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "RESTful API Design",
+        "PostgreSQL",
+        "Prisma ORM",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS (EC2, RDS, S3)",
+        "Nginx",
+        "PM2",
+        "GitHub Actions",
+        "Linux",
+        "Cloudflare"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "S.S. Jain Subodh PG College",
+      "area": "Bachelor of Computer Applications (BCA)",
+      "studyType": "Bachelor",
+      "startDate": "2024-08-01",
+      "endDate": "2027-06-30",
+      "gpa": "",
       "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "DBMS",
+        "OS",
+        "Computer Networking",
+        "Data Structures",
+        "Algorithms"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+      "institution": "KPS Udaan",
+      "area": "Grade 12 (Physics, Chemistry, Mathematics)",
+      "studyType": "High School",
+      "startDate": "2023-04-01",
+      "endDate": "2024-05-31",
+      "gpa": "90.2%",
+      "courses": ["Physics", "Chemistry", "Mathematics"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
+  "work": [],
+  "volunteer": [],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Twice Recommended by SSB for Indian Air Force",
+      "date": "2025",
+      "awarder": "Indian Air Force",
+      "summary": "Elite 0.1% selection from 600,000+ applicants. Demonstrated exceptional decision-making under pressure."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Competitive Programming Excellence",
+      "date": "2026",
+      "awarder": "LeetCode / CodeForces",
+      "summary": "Solved 300+ algorithmic problems showcasing advanced problem-solving capabilities."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Microsoft GitHub Foundations",
+      "date": "2025",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-gb/users/nishantsharma-2380/credentials/aefb5214ce0ab643"
+    },
+    {
+      "name": "Back End Development & APIs",
+      "date": "2025",
+      "issuer": "FreeCodeCamp",
+      "url": "https://drive.google.com/file/d/1obbSvmpeBubq7X_yRFtkk741NJMX8yI2/view?usp=sharing"
+    },
+    {
+      "name": "Problem Solving (Intermediate)",
+      "date": "2025",
+      "issuer": "HackerRank",
+      "url": "https://www.hackerrank.com/certificates/17f976a57553"
+    },
+    {
+      "name": "SQL (Basic)",
+      "date": "2024",
+      "issuer": "HackerRank",
+      "url": "https://www.hackerrank.com/certificates/c3e4298b5e2e"
     }
   ],
   "references": [
