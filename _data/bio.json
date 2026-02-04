@@ -26,17 +26,17 @@
         "url": "http://linkedin.com/in/nishant-developer"
       },
       {
-        "network": "LeetCode",
+        "network": "Leetcode",
         "username": "nishant4712",
-        "url": "http://"
+        "url": "https://leetcode.com/u/nishant4712/"
       },
       {
-        "network": "CodeForces",
+        "network": "Codeforces",
         "username": "nishant4712",
         "url": "https://codeforces.com/profile/nishant4712"
       },
       {
-        "network": "HackerRank",
+        "network": "Hackerrank",
         "username": "business_nishan1",
         "url": "https://www.hackerrank.com/profile/business_nishan1/"
       }
@@ -119,8 +119,7 @@
       "courses": ["Physics", "Chemistry", "Mathematics"]
     }
   ],
-  "work": [],
-  "volunteer": [],
+  "work": ["Open to Internships and Jobs!"],
   "awards": [
     {
       "title": "Twice Recommended by SSB for Indian Air Force",
@@ -159,11 +158,6 @@
       "date": "2024",
       "issuer": "HackerRank",
       "url": "https://www.hackerrank.com/certificates/c3e4298b5e2e"
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
     }
   ]
 }
