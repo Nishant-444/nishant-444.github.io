@@ -6,7 +6,7 @@
     "email": "business.nishant777@gmail.com",
     "phone": "+91 6350435068",
     "website": "https://nishant-444.github.io",
-    "summary": "Backend specialist migrating legacy NoSQL systems to ACID-compliant PostgreSQL architectures. Expert in optimizing cloud infrastructure on strict memory budgets (1GB RAM) using Nginx and PM2. Twice Recommended by SSB for Indian Air Force (Top 0.1%).",
+    "summary": "Specialist in Node.js, PostgreSQL migrations, and AWS resource optimization. Twice Recommended by SSB for Indian Air Force (Top 0.1% Leadership Selection). I bring that same discipline to Backend Engineering. ",
     "location": {
       "address": "",
       "postalCode": "302039",
@@ -29,6 +29,21 @@
         "network": "twitter",
         "username": "_nishant4712",
         "url": "https://twitter.com/_nishant4712/"
+      },
+      {
+        "network": "discord",
+        "username": "_themajorboy",
+        "url": "https://discord.com/users/1369952726707998741"
+      },
+      {
+        "network": "telegram",
+        "username": "nishant_mj",
+        "url": "https://t.me/nishant_mj/"
+      },
+      {
+        "network": "instagram",
+        "username": "_nishant4712",
+        "url": "https://instagram.com/_nishant4712/"
       }
     ]
   },
