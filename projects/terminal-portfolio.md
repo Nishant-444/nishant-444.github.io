@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/portfolio/portfolio.jpg
+image: img/portfolio/portfolio.png
 title: "Terminal Portfolio"
 date: 2025-02-01
 published: true

@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/trend-engine/trend-engine.jpg
+image: img/trend-engine/trend-engine.png
 title: "Trend-Engine"
 date: 2025-08-15
 published: true
