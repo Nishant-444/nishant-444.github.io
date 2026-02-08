@@ -74,6 +74,11 @@
       "keywords": ["TypeScript", "JavaScript", "C++", "SQL"]
     },
     {
+      "name": "Frontend",
+      "level": "Advanced",
+      "keywords": ["HTML", "CSS", "EJS", "TailwindCSS"]
+    },
+    {
       "name": "Backend & APIs",
       "level": "Advanced",
       "keywords": ["Node.js", "Express.js", "RESTful API Design", "JWT Auth"]
