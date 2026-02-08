@@ -6,10 +6,10 @@
     "email": "business.nishant777@gmail.com",
     "phone": "+91 6350435068",
     "website": "https://nishant-444.github.io",
-    "summary": "Specialist in Node.js, PostgreSQL migrations, and AWS resource optimization. Twice Recommended by SSB for Indian Air Force (Top 0.1% Leadership Selection). I bring that same discipline to Backend Engineering. ",
+    "summary": "Specialist in Node.js, PostgreSQL migrations, AWS & Docker. Twice Recommended by SSB for Indian Air Force (Top 0.1% Leadership Selection). I bring that same discipline to Backend Engineering. ",
     "location": {
       "address": "",
-      "postalCode": "302039",
+      "postalCode": "",
       "city": "Jaipur",
       "countryCode": "IN",
       "region": "Rajasthan"
@@ -49,7 +49,7 @@
   },
   "interests": [
     {
-      "name": "Competitive Programming"
+      "name": "Cloud & DevOps"
     },
     {
       "name": "AWS"
@@ -74,15 +74,19 @@
       "keywords": ["TypeScript", "JavaScript", "C++", "SQL"]
     },
     {
-      "name": "Backend & Database",
+      "name": "Backend & APIs",
+      "level": "Advanced",
+      "keywords": ["Node.js", "Express.js", "RESTful API Design", "JWT Auth"]
+    },
+    {
+      "name": "Databases",
       "level": "Advanced",
       "keywords": [
-        "Node.js",
-        "Express.js",
-        "RESTful API Design",
         "PostgreSQL",
+        "MongoDB",
         "Prisma ORM",
-        "MongoDB"
+        "Mongoose ODM",
+        "Query Optimization"
       ]
     },
     {
@@ -93,9 +97,13 @@
         "Nginx",
         "PM2",
         "GitHub Actions",
-        "Linux",
-        "Cloudflare"
+        "Linux"
       ]
+    },
+    {
+      "name": "Tools",
+      "level": "Advanced",
+      "keywords": ["Git", "VS Code", "WSL"]
     }
   ],
   "education": [
@@ -129,7 +137,7 @@
       "title": "Microsoft GitHub Foundations",
       "date": "2025-10-03",
       "awarder": "Microsoft",
-      "summary": "Verified credential (ID: AEFB5214CE0AB643) covering Git, Collaboration, and Security. <a href='https://learn.microsoft.com/en-gb/users/nishantsharma-2380/credentials/aefb5214ce0ab643'>View Certificate</a>"
+      "summary": "covering Git, Collaboration, and Security. <a href='https://learn.microsoft.com/en-gb/users/nishantsharma-2380/credentials/aefb5214ce0ab643'>View Certificate</a>"
     },
     {
       "title": "Back End Development & APIs",
@@ -158,7 +166,7 @@
     {
       "title": "Competitive Programming Excellence",
       "date": "",
-      "awarder": "LeetCode / CodeForces",
+      "awarder": "<a href='https://leetcode.com/u/nishant4712/'>LeetCode </a><a href='https://codeforces.com/profile/nishant4712'>CodeForces </a><a href='https://www.hackerrank.com/profile/business_nishan1'>HackerRank</a>",
       "summary": "Solved 300+ algorithmic problems showcasing advanced problem-solving capabilities."
     }
   ]
