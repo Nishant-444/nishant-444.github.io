@@ -20,7 +20,7 @@
   display: inline-block;
   fill: var(--tf-icon-fill);
   height: 1.5em;
-  vertical-align: -.1em;
+  vertical-align: -0.1em;
   width: 1.5em;
   transition: 0.2s;
 }
@@ -43,7 +43,7 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+/* Simplify the styling of the bottom of Blog cards. */
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;

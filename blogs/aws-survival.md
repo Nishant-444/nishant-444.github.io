@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: "Surviving Production on 1GB RAM"
 date: 2026-02-04
 published: true

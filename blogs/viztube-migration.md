@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: "The Great Migration: Why I ditched MongoDB for PostgreSQL"
 date: 2025-12-29
 published: true

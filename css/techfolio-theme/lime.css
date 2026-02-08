@@ -6,8 +6,8 @@
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --tf-green1: #136c14;
-  --tf-green2: #4FA64F;
-  --tf-green3: #85C285;
+  --tf-green2: #4fa64f;
+  --tf-green3: #85c285;
   --tf-green4: #e0f2df;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--tf-green1);
@@ -19,7 +19,11 @@
   --tf-projects-bg-color: var(--tf-green4);
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: var(--tf-green1);
 }
 
@@ -28,7 +32,7 @@ h1,h2,h3,h4,h5 {
   display: inline-block;
   fill: var(--tf-green1);
   height: 1.5em;
-  vertical-align: -.1em;
+  vertical-align: -0.1em;
   width: 1.5em;
   transition: 0.2s;
 }
@@ -51,7 +55,7 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+/* Simplify the styling of the bottom of Blog cards. */
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;

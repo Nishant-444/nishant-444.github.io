@@ -11,16 +11,16 @@ layout: default
 
     <h3>Blogs</h3>
     <ul>
-      {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
-      {% for page in essay_pages %}
+      {% assign blog_pages = site.pages | where: "type", "blog" | sort: "date" |
+      reverse %} {% for page in blog_pages %}
       <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
       {% endfor %}
     </ul>
 
     <h3>Projects</h3>
     <ul>
-      {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
-      {% for page in project_pages %}
+      {% assign project_pages = site.pages | where: "type", "project" | sort:
+      "title" %} {% for page in project_pages %}
       <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
       {% endfor %}
     </ul>

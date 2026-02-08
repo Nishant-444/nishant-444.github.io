@@ -1,6 +1,6 @@
 ---
-layout: essay
-type: essay
+layout: blog
+type: blog
 title: "Why Text Files are Slow: Optimizing C++ Banking Ops"
 date: 2024-02-15
 published: true
