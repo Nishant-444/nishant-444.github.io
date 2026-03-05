@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/job-application-tracker/job-application-tracker.jpg
+image: img/job-application-tracker/job-application-tracker.png
 title: "Job Application Tracker"
 date: 2026-02-27
 published: true
