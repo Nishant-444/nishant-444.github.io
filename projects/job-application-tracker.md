@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/job-tracker/tracker.jpg
+image: img/job-application-tracker/job-application-tracker.jpg
 title: "Job Application Tracker"
-date: 2026-03-05
+date: 2026-02-27
 published: true
 labels:
   - TypeScript
