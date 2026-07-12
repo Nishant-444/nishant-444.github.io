@@ -137,6 +137,20 @@
       "courses": ["Physics", "Chemistry", "Mathematics"]
     }
   ],
+  "work": [
+    {
+      "company": "Pratham Software",
+      "position": "Software Engineer Intern",
+      "website": "https://www.prathamsoftware.com",
+      "startDate": "2026-03-01",
+      "endDate": "2026-06-30",
+      "summary": "Building an end-to-end internal employee appraisal system, architecting a layered Java backend to handle multi-step review cycles and complex HR workflows.",
+      "highlights": [
+        "Building an end-to-end internal employee appraisal system, architecting a layered Java backend to handle multi-step review cycles and complex HR workflows.",
+        "Designing and integrating RESTful APIs with a Next.js frontend, ensuring secure data flow and strict Role-Based Access Control (RBAC) for administrators, managers, and employees."
+      ]
+    }
+  ],
   "awards": [
     {
       "title": "Microsoft GitHub Foundations",
