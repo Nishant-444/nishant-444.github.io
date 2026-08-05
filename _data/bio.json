@@ -6,7 +6,7 @@
     "email": "business.nishant777@gmail.com",
     "phone": "+91 6350435068",
     "website": "https://nishant-444.github.io",
-    "summary": "Backend-focused full-stack developer specializing in scalable RESTful APIs, cloud infrastructure, vector search & AI-integrated RAG pipelines, and automated CI/CD. 2× Recommended by SSB for the Indian Air Force.",
+    "summary": "Backend-focused full-stack developer specializing in scalable RESTful APIs, cloud infrastructure, vector search & AI-integrated RAG pipelines, and automated CI/CD. Currently Full Stack Developer Intern at Zytexa Technology LLP. 2× Recommended by SSB for the Indian Air Force.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -175,20 +175,39 @@
   ],
   "work": [
     {
+      "company": "Zytexa Technology LLP",
+      "position": "Full Stack Developer Intern",
+      "website": "https://zytexa.com",
+      "startDate": "2026-07-01",
+      "endDate": "Present",
+      "date": "July 2026 – Present",
+      "summary": "Building the backend of CivilCheck, a three-sided property-verification marketplace with role-isolated authentication and transaction settlement systems.",
+      "highlights": [
+        "Building the backend of CivilCheck, a three-sided property-verification marketplace — 12 Prisma/PostgreSQL models with role-isolated JWT auth (buyer / seller / admin) that makes cross-role token reuse structurally impossible.",
+        "Engineering marketplace financial logic, seller earnings & settlement APIs, admin refund workflows, and frozen commission splits at purchase time for audit integrity."
+      ]
+    },
+    {
       "company": "Pratham Software",
       "position": "Software Engineer Intern",
       "website": "https://www.thepsi.com",
       "startDate": "2026-03-01",
       "endDate": "2026-06-30",
-      "date": "Mar 2026 - Jun 2026",
+      "date": "March 2026 – June 2026",
       "summary": "Built an internal employee appraisal system, architecting a layered Java backend with Spring Boot to handle multi-step review cycles and complex HR workflows.",
       "highlights": [
-        "Architected a layered Java backend (Spring Boot) with strict Role-Based Access Control (RBAC) across HR, Manager, and Employee roles.",
-        "Designed and integrated RESTful APIs with a Next.js frontend, ensuring secure data flow and RFC-compliant error envelopes."
+        "Built an employee appraisal platform end-to-end with a layered Spring Boot backend on MySQL, DTO-isolated API contracts, and global exception handling.",
+        "Secured every route with Spring Security 6 + JWT role-based access for HR, manager, and employee actors, consumed by a React.js + TypeScript dashboard."
       ]
     }
   ],
   "awards": [
+    {
+      "title": "Open-Source Contributor (ed-donner/llm_engineering)",
+      "date": "2026",
+      "awarder": "GitHub",
+      "summary": "Engineered RAG tool functionality merged into main branch (PR #3492, 900+ lines of code)."
+    },
     {
       "title": "Microsoft GitHub Foundations",
       "date": "2025-10-03",
@@ -223,7 +242,7 @@
       "title": "Competitive Programming & Algorithmic Practice",
       "date": "",
       "awarder": "<a href='https://leetcode.com/u/nishant4712/'>LeetCode </a><a href='https://codeforces.com/profile/nishant4712'>CodeForces </a><a href='https://www.hackerrank.com/profile/business_nishan1'>HackerRank</a>",
-      "summary": "Solved 300+ algorithmic problems showcasing advanced problem-solving capabilities."
+      "summary": "Solved 150+ algorithmic problems showcasing advanced problem-solving capabilities."
     }
   ]
 }
