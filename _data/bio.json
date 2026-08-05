@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Nishant Sharma",
-    "label": "Backend & Cloud Developer",
+    "label": "Backend-Focused Full-Stack Developer • Cloud Infrastructure • AI-Integrated Systems",
     "picture": "https://github.com/Nishant-444.png",
     "email": "business.nishant777@gmail.com",
     "phone": "+91 6350435068",
     "website": "https://nishant-444.github.io",
-    "summary": "Specialist in Node.js, PostgreSQL migrations, AWS & Docker. Twice Recommended by SSB for Indian Air Force (Top 0.1% Leadership Selection). I bring that same discipline to Backend Engineering. ",
+    "summary": "Backend-focused full-stack developer specializing in scalable RESTful APIs, cloud infrastructure, vector search & AI-integrated RAG pipelines, and automated CI/CD. 2× Recommended by SSB for the Indian Air Force.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -49,66 +49,71 @@
   },
   "interests": [
     {
-      "name": "Cloud & DevOps"
+      "name": "Backend Engineering"
     },
     {
-      "name": "AWS"
+      "name": "Cloud Infrastructure"
     },
     {
-      "name": "SQL/NoSQL"
+      "name": "AI & RAG Pipelines"
     },
     {
-      "name": "Algorithms"
+      "name": "Vector Databases (pgvector)"
     },
     {
-      "name": "TS/JS"
+      "name": "DevOps & CI/CD"
     },
     {
-      "name": "Node.js"
+      "name": "System Architecture"
     }
   ],
   "skills": [
     {
       "name": "Languages",
       "level": "Advanced",
-      "keywords": ["TypeScript", "JavaScript", "C++", "SQL"]
-    },
-    {
-      "name": "Frontend",
-      "level": "Advanced",
-      "keywords": ["HTML", "CSS", "EJS", "TailwindCSS"]
+      "keywords": ["TypeScript", "JavaScript", "Java", "SQL", "Python", "C++"]
     },
     {
       "name": "Backend & APIs",
       "level": "Advanced",
-      "keywords": ["Node.js", "Express.js", "RESTful API Design", "JWT Auth"]
+      "keywords": ["Node.js", "Express.js", "Spring Boot", "FastAPI", "RESTful API Design", "JWT Auth"]
     },
     {
-      "name": "Databases",
+      "name": "Frontend",
+      "level": "Advanced",
+      "keywords": ["Next.js", "React", "HTML/CSS", "Shadcn/ui", "EJS", "TailwindCSS"]
+    },
+    {
+      "name": "Databases & Storage",
       "level": "Advanced",
       "keywords": [
-        "PostgreSQL",
+        "PostgreSQL (pgvector)",
+        "MySQL",
         "MongoDB",
         "Prisma ORM",
-        "Mongoose ODM",
-        "Query Optimization"
+        "NeonDB",
+        "Mongoose ODM"
       ]
     },
     {
-      "name": "Cloud & DevOps",
-      "level": "Intermediate",
+      "name": "Cloud & AI/DevOps",
+      "level": "Advanced",
       "keywords": [
         "AWS (EC2, RDS, S3)",
+        "Docker & Docker Compose",
+        "GitHub Actions CI/CD",
         "Nginx",
-        "PM2",
-        "GitHub Actions",
-        "Linux"
+        "Cloudflare",
+        "Groq Whisper",
+        "Hugging Face",
+        "OpenRouter",
+        "Vercel AI SDK"
       ]
     },
     {
       "name": "Tools",
       "level": "Advanced",
-      "keywords": ["Git", "VS Code", "WSL"]
+      "keywords": ["Git", "VS Code", "WSL", "Postman", "Linux"]
     }
   ],
   "education": [
@@ -144,10 +149,10 @@
       "website": "https://www.prathamsoftware.com",
       "startDate": "2026-03-01",
       "endDate": "2026-06-30",
-      "summary": "Building an end-to-end internal employee appraisal system, architecting a layered Java backend to handle multi-step review cycles and complex HR workflows.",
+      "summary": "Built an internal employee appraisal system, architecting a layered Java backend with Spring Boot to handle multi-step review cycles and complex HR workflows.",
       "highlights": [
-        "Building an end-to-end internal employee appraisal system, architecting a layered Java backend to handle multi-step review cycles and complex HR workflows.",
-        "Designing and integrating RESTful APIs with a Next.js frontend, ensuring secure data flow and strict Role-Based Access Control (RBAC) for administrators, managers, and employees."
+        "Architected a layered Java backend (Spring Boot) with strict Role-Based Access Control (RBAC) across HR, Manager, and Employee roles.",
+        "Designed and integrated RESTful APIs with a Next.js frontend, ensuring secure data flow and RFC-compliant error envelopes."
       ]
     }
   ],
@@ -156,7 +161,7 @@
       "title": "Microsoft GitHub Foundations",
       "date": "2025-10-03",
       "awarder": "Microsoft",
-      "summary": "covering Git, Collaboration, and Security. <a href='https://learn.microsoft.com/en-gb/users/nishantsharma-2380/credentials/aefb5214ce0ab643'>View Certificate</a>"
+      "summary": "Certified in Git version control, GitHub workflows, collaboration, and security practices. <a href='https://learn.microsoft.com/en-gb/users/nishantsharma-2380/credentials/aefb5214ce0ab643'>View Certificate</a>"
     },
     {
       "title": "Back End Development & APIs",
@@ -180,10 +185,10 @@
       "title": "Twice Recommended by SSB for Indian Air Force",
       "date": "2024",
       "awarder": "Indian Air Force",
-      "summary": "Elite 0.1% selection from 600,000+ applicants. Demonstrated exceptional decision-making under pressure."
+      "summary": "Selected via SSB interview, conference, and medical tests. Demonstrated exceptional leadership and decision-making under pressure."
     },
     {
-      "title": "Competitive Programming Excellence",
+      "title": "Competitive Programming & Algorithmic Practice",
       "date": "",
       "awarder": "<a href='https://leetcode.com/u/nishant4712/'>LeetCode </a><a href='https://codeforces.com/profile/nishant4712'>CodeForces </a><a href='https://www.hackerrank.com/profile/business_nishan1'>HackerRank</a>",
       "summary": "Solved 300+ algorithmic problems showcasing advanced problem-solving capabilities."

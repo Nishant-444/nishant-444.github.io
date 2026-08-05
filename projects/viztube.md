@@ -3,29 +3,32 @@ layout: project
 type: project
 image: img/viztube/viztube.jpg
 title: "VizTube"
-date: 2026-01-20
+date: 2026-07-01
 published: true
 labels:
   - TypeScript
   - Node.js
+  - FastAPI
+  - PostgreSQL (pgvector)
   - Docker
   - AWS
-  - PostgreSQL
-  - CI/CD
-summary: "Production-grade video infrastructure on AWS. Dockerized, resource-optimized (1GB RAM), and fully automated."
+  - AI / RAG
+  - Groq & OpenRouter
+summary: "Production video platform backend featuring an AI-Powered RAG engine, Groq Whisper audio transcription, pgvector similarity search, and a decoupled FastAPI worker on AWS EC2."
 ---
 
-# VizTube - Production Video Infrastructure
+# VizTube - Video Platform with AI-Powered RAG Engine (v2.1)
 
-**VizTube** is a resource-optimized backend for a video sharing platform, engineered to run a full micro-service architecture on strictly constrained cloud resources.
+**VizTube** is a resource-optimized production backend for a video-sharing platform, featuring a microservice architecture and an AI-powered RAG pipeline optimized for constrained cloud environments.
 
 ### Key Engineering Achievements
 
-- **Resource Optimization:** Dockerized the entire stack (Node.js API + PostgreSQL) to run efficiently on a single **AWS EC2 t3.micro (1GB RAM)** instance. Optimized build processes to reduce image size by **~12%**.
-- **Automated DevOps:** Architected a CI/CD pipeline using **GitHub Actions** that builds Docker images, pushes to Docker Hub, and deploys to production in **<90 seconds**.
-- **Database Migration:** Re-architected the data layer from MongoDB to **PostgreSQL** using **Prisma ORM**. This transition ensured **ACID compliance** for critical features like user subscriptions and view counting.
-- **Security Hardening:** Configured **Nginx** as a reverse proxy with SSL/TLS termination and implemented strict **AWS Security Groups** to block direct access to internal API ports.
-- **Resilient Media Pipeline:** Designed an asynchronous upload system using Multer (disk buffering) and Cloudinary CDN to prevent **OOM (Out of Memory)** crashes during high-volume traffic.
+- **AI-Powered RAG Pipeline (v2.1):** Engineered an intelligent Retrieval-Augmented Generation pipeline allowing natural language querying of video transcripts. Integrated **Groq API (Whisper-large-v3)** for cloud audio transcription to prevent CPU overload on small instances.
+- **pgvector Vector Database:** Generated vector embeddings locally using **Hugging Face `all-MiniLM-L6-v2`** (~90MB RAM footprint) and executed cosine distance vector searches directly inside PostgreSQL using **pgvector** (`<=>` operator), saving hundreds of megabytes by omitting extra vector database containers like ChromaDB.
+- **Decoupled FastAPI Worker:** Architected an independent Python microservice (**FastAPI**) for ML ingestion and similarity queries, keeping the core **Node.js/Express** API clean and responsive.
+- **AWS EC2 Resource Optimization (1GB RAM):** Containerized the multi-service stack (Node.js API + PostgreSQL + FastAPI AI Worker) using **Docker Compose** with strict memory boundaries and automated health checks on an **AWS EC2 t3.micro** instance.
+- **Database Architecture & UUIDv7:** Migrated database primary keys to **UUID v7** (time-ordered, lexicographically sortable) with **Prisma ORM** to optimize B-tree index clustering and prevent fragmentation.
+- **Automated DevOps & SSL:** Configured a **GitHub Actions CI/CD pipeline** for automated container builds and deployments, paired with **Cloudflare DNS/SSL** and an **Nginx reverse proxy** with Certbot auto-renewal.
 
-**Source Code:** [GitHub](https://github.com/nishant-444/viztube)
-**Live API:** [VizTube.me](https://www.viztube.me/)
+**Source Code:** [GitHub](https://github.com/Nishant-444/VizTube)  
+**Live API Endpoint:** [VizTube.me](https://viztube.me)
