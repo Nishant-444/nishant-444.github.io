@@ -18,12 +18,12 @@
       {
         "network": "Github",
         "username": "nishant-444",
-        "url": "http://github.com/nishant-444"
+        "url": "https://github.com/nishant-444"
       },
       {
         "network": "Linkedin",
         "username": "nishant-developer",
-        "url": "http://linkedin.com/in/nishant-developer"
+        "url": "https://linkedin.com/in/nishant-developer"
       },
       {
         "network": "twitter",
@@ -71,17 +71,38 @@
     {
       "name": "Languages",
       "level": "Advanced",
-      "keywords": ["TypeScript", "JavaScript", "Java", "SQL", "Python", "C++"]
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Java",
+        "SQL",
+        "Python",
+        "C++"
+      ]
     },
     {
       "name": "Backend & APIs",
       "level": "Advanced",
-      "keywords": ["Node.js", "Express.js", "Spring Boot", "FastAPI", "RESTful API Design", "JWT Auth"]
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "Spring Boot",
+        "FastAPI",
+        "RESTful API Design",
+        "JWT Auth"
+      ]
     },
     {
       "name": "Frontend",
       "level": "Advanced",
-      "keywords": ["Next.js", "React", "HTML/CSS", "Shadcn/ui", "EJS", "TailwindCSS"]
+      "keywords": [
+        "Next.js",
+        "React",
+        "HTML/CSS",
+        "Shadcn/ui",
+        "EJS",
+        "TailwindCSS"
+      ]
     },
     {
       "name": "Databases & Storage",
@@ -113,7 +134,13 @@
     {
       "name": "Tools",
       "level": "Advanced",
-      "keywords": ["Git", "VS Code", "WSL", "Postman", "Linux"]
+      "keywords": [
+        "Git",
+        "VS Code",
+        "WSL",
+        "Postman",
+        "Linux"
+      ]
     }
   ],
   "education": [
@@ -139,14 +166,18 @@
       "startDate": "2023-04-01",
       "endDate": "2024-05-31",
       "gpa": "90.2%",
-      "courses": ["Physics", "Chemistry", "Mathematics"]
+      "courses": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ]
     }
   ],
   "work": [
     {
       "company": "Pratham Software",
       "position": "Software Engineer Intern",
-      "website": "https://www.prathamsoftware.com",
+      "website": "https://www.thepsi.com",
       "startDate": "2026-03-01",
       "endDate": "2026-06-30",
       "summary": "Built an internal employee appraisal system, architecting a layered Java backend with Spring Boot to handle multi-step review cycles and complex HR workflows.",
