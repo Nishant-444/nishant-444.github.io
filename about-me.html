@@ -137,12 +137,17 @@ layout: home
           </div>
           <div class="col-3">
             <p class="m-0 text-end">
-              {% if entry.startDate %} {{ entry.startDate | slice: 0,4 }} {%
-              endif %} {% if entry.startDate and entry.startDate != '' and
-              entry.endDate and entry.endDate != '' %} - {% endif %} {% if
-              entry.endDate %} {% if entry.endDate != "Present" %} {{
-              entry.endDate | slice: 0,4 }} {% else %} {{ entry.endDate }} {%
-              endif %} {% endif %}
+              {% if entry.date %}
+                {{ entry.date }}
+              {% elsif entry.startDate %}
+                {% assign s_year = entry.startDate | slice: 0,4 %}
+                {% assign e_year = entry.endDate | slice: 0,4 %}
+                {% if s_year == e_year %}
+                  {{ entry.startDate | date: "%b %Y" }} - {{ entry.endDate | date: "%b %Y" }}
+                {% else %}
+                  {{ entry.startDate | date: "%b %Y" }} - {% if entry.endDate and entry.endDate != "Present" %}{{ entry.endDate | date: "%b %Y" }}{% else %}Present{% endif %}
+                {% endif %}
+              {% endif %}
             </p>
           </div>
         </div>

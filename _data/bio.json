@@ -180,6 +180,7 @@
       "website": "https://www.thepsi.com",
       "startDate": "2026-03-01",
       "endDate": "2026-06-30",
+      "date": "Mar 2026 - Jun 2026",
       "summary": "Built an internal employee appraisal system, architecting a layered Java backend with Spring Boot to handle multi-step review cycles and complex HR workflows.",
       "highlights": [
         "Architected a layered Java backend (Spring Boot) with strict Role-Based Access Control (RBAC) across HR, Manager, and Employee roles.",
